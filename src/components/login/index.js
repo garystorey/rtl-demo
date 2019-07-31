@@ -1,2 +1,2 @@
-import {LogInOut} from './login';
+import LogInOut from './Login';
 export default LogInOut;

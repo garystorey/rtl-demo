@@ -7,9 +7,9 @@ import Card from './components/card';
 function App() {
   return (
     <>
-    <LogInOut />
-    <Greeting />
-    <Card/>
+      <Greeting />
+      <LogInOut />
+      <Card/>
     </>
   );
 }
