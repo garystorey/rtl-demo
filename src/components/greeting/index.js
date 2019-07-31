@@ -1,2 +1,2 @@
-import {Greeting} from './Greeting';
+import Greeting from './Greeting';
 export default Greeting;
