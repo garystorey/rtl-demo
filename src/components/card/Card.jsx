@@ -14,10 +14,10 @@ return (
         </div>
         <ul className="avatar-contact-list">
             <li className="avatar-contact-list-item">
-                <a href={email}>✉</a>
+                <a href={`mailto:${email}`}>✉</a>
             </li>
             <li className="avatar-contact-list-item">
-                <a href={phone}>✆</a> 
+                <a href={`tel:${phone}`}>✆</a> 
             </li>
         </ul>
     </div>
