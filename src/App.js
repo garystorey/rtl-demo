@@ -19,7 +19,9 @@ function App() {
 
   const logIn = (e) => {
     e.preventDefault();
-    setUser(users[0]);
+    const val = e.target.elements.username.value;
+    const updated = users.filter( u => u.username === val);
+    setUser(updated[0]);
     setLogin(true);
   };
 
