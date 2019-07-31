@@ -11,7 +11,7 @@ const LogIn = ({onSubmit}) => {
             </p>
             <p>
                 <label htmlFor="pwd">Password</label>
-                <input id="pwd" />
+                <input type="password" id="pwd" />
             </p>
             <p>
                 <button>Submit</button>
