@@ -1,20 +1,6 @@
 import React from 'react';
 
-const Card = () => {
-    return <></>;
-};
-
-export default Card;
-
-
-
-
-
-
-
-
-
-/*
+const Card = ({user}) => {
     const {image,firstName,lastName,location,email,phone} = user;
 return (
     <section className="avatar">
@@ -35,5 +21,8 @@ return (
             </li>
         </ul>
     </div>
-</section>);                    
-*/
+</section>);   
+};
+
+export default Card;
+
