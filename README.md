@@ -1,5 +1,6 @@
 # OLD and OUTDATED
 
+This repo does not follow current best practices!!
 
 # TDD with React Testing Library
 
